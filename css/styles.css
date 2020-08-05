@@ -1,4 +1,10 @@
-h1,h2,h3, {
-  font-family: "Space Mono", sans-serif;
+body {
+  background-color: #092532;
+  color: #e1ffc2;
 }
 
+h1, h2, h3, {
+  font-family: 'Space Mono', mono space, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}

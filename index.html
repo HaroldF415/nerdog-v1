@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
 
 <head>
@@ -11,39 +12,53 @@
 
 <body>
   <h1>Nerdog</h1>
-  
- <section class="colored-section" id="Some cool dogs">
 
-  <div id ="Smart-dogs" class="carousel slide" data-ride="false">
-    <div class ="carousel-inner">
-      <div class ="carousel-item active container-fluid">
-        <h2 class ="about-text">I eat books for fun.</h2>
-        <img class ="" src="" alt="">
-        <em>Mr. Munchies, Canada</em>
+  <section class="colored-section" id="Some cool dogs">
+
+    <!-- Main carousel DIV -->
+    <div id="nerdog-carousel" class="carousel slide" data-ride="false">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active container-fluid">
+          <h2 class="about-text">I eat books for fun.</h2>
+          <img class="nerdog_pics" src="images/nerdog_001.jpg" alt="">
+          <em>Mr. Munchies, Canada</em>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="about-text">Being a nerd dog is cool. We get extra treats. woof woof!</h2>
+          <img class="nerdog_pics" src="images/nerdog_002.jpg" alt="">
+          <em>Smarties, NYC</em>
+        </div>
+
       </div>
-      <div class ="carousel-item container-fluid">
-        <h2 class ="about-text">Being a nerd dog is cool. We get extra treats. woof woof!</h2>
-        <img class ="smartDog-image" src="" alt="">
-        <em>Smarties, NYC</em>
-      </div>
+
+      <!-- The href="" must match the ID of or main carousel DIV -->
+      <a class="carousel-control-prev" href="#nerdog-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      
+      <!-- The href="" must match the ID of or main carousel DIV -->
+      <a class="carousel-control-next" href="#nerdog-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+      </a>
 
     </div>
-    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 
+  </section>
 
-</section>
-  
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script> 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
