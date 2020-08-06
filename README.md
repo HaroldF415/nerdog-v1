@@ -1,4 +1,6 @@
 # nerdog
+<img src="images/nerdog-v1.gif" alt="Markdown Preview" style="height: 800px; width:500px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px;"/>
+
 > First project that will be shared with other people to complete a website.
 ___
 
